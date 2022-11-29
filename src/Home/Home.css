@@ -1,0 +1,221 @@
+.homeBody{
+  max-width: 800px;
+  background-color:#254f1a;
+  /* padding-bottom:8px;*/
+  height:100%;
+
+}
+
+.elements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#254f1a;
+
+}
+
+
+
+.navbar{
+  position: sticky;
+  width: 92.5%;
+  height: 70px;
+  top: 15px;
+  margin-top: 15px;
+  max-height:90px;
+  background-color:#ffff;
+  border-radius:50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+
+
+#logo{
+  height: 60%;
+  max-width:50px;
+  justify-self: flex-start;
+  display: block;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+
+
+.Signup_button{
+  height:80%;
+  border-radius:50px;
+  background-color:#1e2330;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-left: 5px;
+  
+  
+}
+
+
+.Login_button{
+  user-select: none;
+  height:70%;
+  background-color: #eff0ec;
+  border-radius:8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-left: 5px;
+}
+
+.Signup_text{
+  color: #ffff;
+  user-select: none;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Link Sans", "Arial Black";
+  font-weight:450;
+  letter-spacing:0.01em;
+  line-height:1.5;
+  
+  
+  
+}
+
+
+
+.Login_text{
+  color: #1e2330;
+  user-select: none;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Link Sans", "Arial Black";
+  font-weight:500;
+  letter-spacing:0.01em;
+  line-height:1.5;
+
+}
+
+.hamburger{
+  padding: 0 10px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.main_head{
+  width: 90%;
+  max-height: 500px;/* A enlever plus tard*/
+  min-height:0px;/* A enlever plus tard*/
+  border-radius: 20px;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+
+
+@font-face{
+  font-display:swap;font-family:Link Sans;font-weight:200 900;src:url('https://website.linktr.ee/static/LinkSans-LinkSansVF-5ba82435cfe1454f76404182afdbf4fc.woff2') format("woff2-variations")
+}
+
+#main_title{
+  margin-top: 0px;
+  margin-block-end: 10px;
+  width: 90%;
+  font-weight: 820;
+  font-family: "Link Sans", "Arial Black", Arial, sans-serif;
+  font-size: 2.8em;
+  font-size: 3em;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  text-align: left;
+  color: rgb(210, 232, 35);
+
+}
+
+#paragraph{
+  width: 100%;
+  color: rgb(210, 232, 35);
+  font-family: "Link Sans", "Arial Black", Arial, sans-serif;
+  font-size:1em;
+  font-weight:500;
+  letter-spacing:-0.02em;
+  line-height:1.5;
+}
+
+.form_elements{
+  width: 90%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form_div{
+  width: 270px;
+  height: 65px;
+  border-radius: 7px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+
+}
+
+#button{
+  display: flex;
+  width: 220px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #e9c0e9;
+  margin-top: 10px;
+  border-width:0px;
+  border:none;
+  text-align: center;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+
+
+}
+
+#link_text{
+  color: #676b5f;
+  width: 110px;
+  margin-left: 20px;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+}
+
+#link_input{
+  background-color:rgba(255, 255, 255, 0);
+  color: #676b5f;
+  width: 125px;
+  padding-left: 8px;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  border-width:0px;
+  border:none;
+  letter-spacing:0.01em;
+}
+
+#link_input:focus {
+  outline:none;
+}
+.img_header{
+  width: 70%;
+  margin-top: 80px;
+  margin-bottom:80px;
+}
+
+

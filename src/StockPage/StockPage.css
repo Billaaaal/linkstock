@@ -1,0 +1,499 @@
+.elementsStockPage{
+  max-width: 800px;
+  min-height:1000px;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#ffff;
+}
+
+.elementsStockPage .navbar{
+  background-color:#1e2330 ;
+}
+
+
+.elementsStockPage .Login_button{
+  background-color:#343d54;
+  
+}
+
+.elementsStockPage .Signup_button{
+  background-color:rgb(255, 255, 255);
+  border-width:0px;
+  border:none;
+  color: #000;
+  user-select: none;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Link Sans", "Arial Black";
+  font-weight:450;
+  letter-spacing:0.01em;
+  line-height:1.5;
+
+}
+
+.elementsStockPage .Signup_text{
+  color:#000000;
+}
+
+.elementsStockPage .Login_text{
+  color:#ffffff;
+}
+
+
+.elementsStockPage .profilePictureContainer{
+  width:90%;
+  height:90px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+
+
+.elementsStockPage .profilePictureImage{
+  width:60px;
+  height:60px;
+  border-radius:100px;
+  background-color: #fff;
+  object-fit: fill;
+}
+
+
+
+.elementsStockPage .chooseProfilePictureButton{
+  display: flex;
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #a88ba8;
+  border-width:0px;
+  border:none;
+  text-align: center;
+  padding: 0;
+  display: table-cell;
+  margin-left:30px;
+  vertical-align: middle;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+}
+
+.elementsStockPage #bio_input{
+  background-color:#c5c5c554;
+  width:250px;
+  height:80px;
+  border-radius:15px;
+  margin-top:10px;
+  color: #000000;
+  padding-left: 8px;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  border-width:0px;
+  border:none;
+  letter-spacing:0.01em;
+  resize: none;
+
+}
+
+.elementsStockPage #bio_input::placeholder {
+  
+  color: #2b2b2b;
+}
+
+
+.elementsStockPage #bio_input:focus {
+  outline:none;
+}
+
+
+.elementsStockPage .buttons{
+  display: flex;
+  width:100%;
+  height:100px;
+  margin-top:20px;
+  background-color:#ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+
+
+
+
+
+.elementsStockPage .roundedButton{
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius:100px;
+  background-color: #c0d8e9;
+  margin-top: 0px;
+  border-width:0px;
+  border:none;
+  text-align: center;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+}
+
+.elementsStockPage .roundedButton:hover{
+  background-color: rgb(151, 252, 255);
+  
+  
+}
+
+
+.elementsStockPage .roundedButton:hover .linkSvg{
+  fill: #fff;
+  
+  
+}
+
+
+.elementsStockPage #userNameText{
+  width: 95%;
+  margin-top: 20px;
+  font-family: "Link Sans";
+  text-align:center;
+  font-size: 1.5em;
+  font-weight:400;
+  letter-spacing:0.01em;
+}
+
+.elementsStockPage .linkSvg{
+  width:70%;
+  
+}
+
+.elementsStockPage .linksContainer{
+  width:90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.elementsStockPage .link{
+  width:100%;
+  margin-top:20px;
+  height:60px;
+  background:none;
+  border-radius:30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+}
+
+
+.elementsStockPage .link .linkTitle{
+  display: flex;
+  text-decoration: none;
+  font-size: 1.6em;
+  text-align: center;
+  align-self: center;
+  font-family: "Link Sans", "Arial Black";
+  font-weight:550;
+  letter-spacing:0.01em;
+}
+
+.elementsStockPage .yrLinks{
+  color: #9fa9c2;
+  display: flex;
+  user-select: none;
+  text-decoration: none;
+  margin-top: 0px;
+  font-size: 1.5em;
+  font-family: "Link Sans", "Arial Black";
+  font-weight:450;
+  letter-spacing:0.01em;
+  line-height:1.5;
+}
+
+.elementsStockPage .socialSvg{
+  margin-top:4px;
+}
+
+.elementsStockPage .buttonContainer{
+  width:90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elementsStockPage .buttonText{
+  font-size:0.88em;
+  font-weight:700;
+}
+
+.elementsStockPage .saveButton{
+  position: sticky;
+  bottom: 20px;
+  margin-left: 20px;
+  color: #fff;
+  background-color: black;
+  align-self: flex-start;
+
+
+  
+  width: 80px;
+  height: 50px;
+  margin-top: 180px;
+  border-radius: 30px;
+  background-color: #a88ba8;
+  border-width:0px;
+  border:none;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+
+}
+
+body .linkModalContainer{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.addLinkText{
+  text-align:center;
+  font-family: "Link Sans";
+  font-size: 1.2em;
+  margin-top:0px;
+  font-weight:500;
+  letter-spacing:0.01em;
+}
+
+.linkModalContainer .linkInput{
+  width:85%;
+  height:40px;
+  margin-bottom:20px;
+  border-radius:13px;
+  border:1px solid #ced4da;
+  font-family: "Link Sans";
+  font-size: 1em;
+  padding-left: 15px;
+  font-weight:100;
+  letter-spacing:0.01em;
+}
+
+.linkModalContainer .linkInput::placeholder{
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:100;
+  letter-spacing:0.01em;
+  color: #ced4da;
+}
+
+.linkModalContainer .linkSaveButton{
+  display: flex;
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #a88ba8;
+  border-width:0px;
+  border:none;
+  text-align: center;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+}
+
+.elementsStockPage .socialMediaLinksContainer{
+  width:80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+
+.elementsStockPage .socialMediaLinksContainer .socialMediaSelf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:40px;
+  height:30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  background: none;
+
+
+}
+
+
+
+.elementsStockPage .socialMediaSelf{
+  display: flex;
+  width:35px;
+  height:35px;
+  
+}
+
+body .profilePictureSelectorModalContainer{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .profilePictureSelectorModalContainer .importProfilePictureText{
+  text-align:center;
+  font-family: "Link Sans";
+  font-size: 1.2em;
+  font-weight:500;
+  letter-spacing:0.01em;
+
+}
+
+body .profilePictureSelectorModalContainer label{
+  background-color: #a88ba8;
+  color: white;
+  width: 140px;
+  height: 60px;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+  border-radius: 20px;
+  padding-top:15px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+body .profilePictureSelectorModalContainer .importImageSaveButton{
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #2a85b6;
+  border-width:0px;
+  border:none;
+  text-align: center;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+}
+.sociaMediaModalContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.socialMediasContainerToChoose{
+  width:100%;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.socialMediasContainerToChoose .socialMediaSelfButton{
+  display: flex;
+  width:40px;
+  height:40px;
+  background-color:#b7aaff;
+  align-items: center;
+  border-radius:15px;
+  border:0px solid;
+  border:none;
+  flex-direction: column;
+  vertical-align: middle;
+  justify-content: center;
+
+}
+
+
+.socialMediasContainerToChoose .socialMediaSelfButton .socialMediaSelfSvg{
+  display: flex;
+  fill:#fff;
+
+}
+
+.socialMediasContainerToChoose .socialMediaSelfButton:hover .socialMediaSelfSvg{
+  fill:#b7aaff;
+  
+}
+
+
+.socialMediasContainerToChoose .socialMediaSelfButton:hover{
+  background-color:#fff;
+  
+}
+
+
+.sociaMediaModalContainer .linkInputSocialMedia{
+  width:85%;
+  height:40px;
+  margin-bottom:20px;
+  border-radius:13px;
+  border:1px solid #ced4da;
+  font-family: "Link Sans";
+  font-size: 1em;
+  padding-left: 15px;
+  font-weight:100;
+  letter-spacing:0.01em;
+  margin-top:10px;
+}
+
+.sociaMediaModalContainer .linkInputSocialMedia::placeholder{
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:100;
+  letter-spacing:0.01em;
+  color: #ced4da;
+}
+
+.sociaMediaModalContainer .socialMedialinkSaveButton{
+  display: flex;
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #a88ba8;
+  border-width:0px;
+  border:none;
+  text-align: center;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Link Sans";
+  font-size: 1em;
+  font-weight:400;
+  letter-spacing:0.01em;
+}
