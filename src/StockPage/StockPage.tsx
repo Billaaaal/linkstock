@@ -80,6 +80,8 @@ function App() {
 
         <h2 id="userNameText">@{useLocation().pathname.replace("/", "")}</h2>
 
+        <h2 id="userNameText">{bio}</h2>
+
         <div className="socialMediaLinksContainer">
 
           {socialMedias.map((socialMediaSelf, index) => {
